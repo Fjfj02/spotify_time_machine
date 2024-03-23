@@ -4,9 +4,9 @@ import requests
 from bs4 import BeautifulSoup
 
 #spotify api
-client_id = '3f8620f2e92941f4be4516877c628295'
-client_secret = 'b365e6d0dd2b480da783adcaf44d7795'
-username_spt = 'Fausto Junior'
+client_id = "YOUR CLIENTE ID"
+client_secret = "YOUR CLIENTE KEY"
+username_spt = "YOUR SPOTIFY NAME"
 
 sp = spotipy.Spotify(
     auth_manager=SpotifyOAuth(
